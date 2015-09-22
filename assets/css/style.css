@@ -33,7 +33,9 @@ Text Domain: flusk
 //  01 - Global 
 /////////////////////////////////////////////////////////////////////*/
 
-* {outline: none !important;}
+* {
+	outline: none !important;
+}
 
 ::selection {
   background-color: #475B6F;
@@ -58,7 +60,10 @@ p {
     font-family: 'Open Sans', sans-serif;
   }
 
-img {max-width: 100%;}
+img {
+	max-width: 100%;
+	align-content: center;
+}
 
 a {
   text-decoration: none;
@@ -75,7 +80,7 @@ a{
 }
 
 a:hover {
-  color: #4290ae; 
+	color: #FBFBFB;
 }
 
 
@@ -143,9 +148,9 @@ li{
     
 
 header.top-header {
-  position: fixed;
-  z-index: 999;
-  width: 100%;
+	position: fixed;
+	z-index: 650;
+	width: 100%;
 }
 .shows {
  background: rgba(43, 62, 81, 0.77);
@@ -477,7 +482,7 @@ headerx .scrolldown a:hover { color: #11ABB0; }
   margin-top: 60px;
 }
 .about-sec {
-  margin-top: 40px;
+	margin-top: 40px;
 }
 
 .about-us {
@@ -651,7 +656,8 @@ h2.footer-block {
   padding: 37px 0 30px;
 }
 .blog-post ul p{
-  margin-left: 40px;
+	margin-left: 42px;
+	margin-top: -26px;
 }
 .blog-post ul li .fa {
   border-radius: 33px 33px;
@@ -663,7 +669,7 @@ h2.footer-block {
   margin-right: 9px;
 }
 .blog-post ul {
-  margin-left: -40px;
+	margin-left: -27px;
 }
 .blog-post .fa{
   background: rgb(219, 82, 82);
@@ -735,5 +741,5 @@ h2.footer-block {
   }
 }
 button.navbar-toggle.collapsed {
-  margin-top: 40px;
+  margin-top: 30px;
 }
